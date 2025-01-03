@@ -16,7 +16,9 @@
 uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## Использование c Dockerfile
-```bash   
+
+Запуск:
+```bash
 docker build -t my_fastapi_app .
 docker run -d -p 8000:8000 --name my_fastapi_app my_fastapi_app
 
